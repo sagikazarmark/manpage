@@ -1,0 +1,29 @@
+.manpage {
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.42857142857143;
+    max-width: 800px;
+    text-align: justify;
+
+    h1 {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    section {
+        & > {
+            p, ul, ol, code, pre {
+                margin-top: 0;
+                margin-left: 50px;
+            }
+        }
+    }
+}
