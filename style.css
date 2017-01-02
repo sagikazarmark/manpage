@@ -16,3 +16,6 @@
   .manpage section > p, .manpage section > ul, .manpage section > ol, .manpage section > code, .manpage section > pre {
     margin-top: 0;
     margin-left: 50px; }
+  .manpage section > ul, .manpage section > ol {
+    padding: 0;
+    list-style-type: none; }
