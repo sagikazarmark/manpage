@@ -13,6 +13,9 @@
     margin-top: 20px;
     margin-bottom: 0;
     text-transform: uppercase; }
+  .manpage a, .manpage a:link, .manpage a:hover {
+    color: #0000ff;
+    font-weight: bold; }
   .manpage section > p, .manpage section > ul, .manpage section > ol, .manpage section > code, .manpage section > pre {
     margin-top: 0;
     margin-left: 50px; }
